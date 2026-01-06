@@ -126,4 +126,43 @@ footer {
   letter-spacing: 0.5px;
 }
 
+/* ===== Group headers ===== */
+.member-group-title {
+  margin: 35px 0 12px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--primary);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 4px;
+}
+
+/* ===== Member list ===== */
+.member-list {
+  list-style: disc;
+  padding-left: 30px;   /* indent */
+  margin: 0 0 20px 0;
+}
+
+/* ===== Member item ===== */
+.member-item {
+  margin-bottom: 8px;
+  color: #000;          /* tên màu đen */
+}
+
+/* ===== Member name ===== */
+.member-name {
+  font-weight: 500;
+}
+
+/* ===== Profile link ===== */
+.member-item a {
+  margin-left: 8px;
+  font-size: 14px;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.member-item a:hover {
+  text-decoration: underline;
+}
 
