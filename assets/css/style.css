@@ -95,15 +95,17 @@ footer {
 
 .img-box {
   width: 100%;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 6px;
+  height: 260px;          /* tăng chiều cao */
+  background: #f7f7f7;    /* nền trung tính */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-box img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -123,3 +125,4 @@ footer {
 .hero h1 {
   letter-spacing: 0.5px;
 }
+
