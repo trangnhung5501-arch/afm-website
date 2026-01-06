@@ -110,7 +110,7 @@ footer {
 }
 
 .hero h1 {
-  font-size: 64px;      /* tăng size tiêu đề */
+  font-size: 52px;      /* tăng size tiêu đề */
   font-weight: 700;
   margin-bottom: 10px;
   line-height: 1.15;
@@ -125,4 +125,5 @@ footer {
 .hero h1 {
   letter-spacing: 0.5px;
 }
+
 
