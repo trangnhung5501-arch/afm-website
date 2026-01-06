@@ -80,8 +80,11 @@ footer {
 .research-img {
   width: 100%;
   height: 180px;
-  object-fit: cover;
+ object-fit: contain;   /* ✅ GIỮ ĐỦ ẢNH */
+  background: #f7f7f7;   /* nền xám nhẹ */
 
+  border-radius: 6px;
+  margin-bottom: 12px;
   display: block;
-  max-width: 100%;
 }
+
